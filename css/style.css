@@ -1,0 +1,161 @@
+body{
+  background-image: url("../image/hbck6.jpg") ;
+  background-blend-mode: hard-light;
+  background-size:cover;
+  background-position:center;
+
+}
+h1{
+  font-family:monospace;
+  font-size: 35px;
+  color:white;
+}
+#h{
+  font-size: :25px;
+  font-family: Ubuntu;
+}
+
+#home{
+  background-color:black;
+  opacity:0.7;
+  overflow: auto;
+  border: 1px solid  black;
+  width: 800px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+#field{
+  display:none;
+  align-items: center;
+  position: fixed;
+  text-align: center;
+  font-size: 42px;
+  font-family: Ubuntu;
+  width: 600px;
+  height: 80px;
+  border-radius: 12px;
+  border: 3px solid blue;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+#spin{
+  background-image: url("../image/spin.png");
+  background-size: contain;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: visible;
+  cursor: pointer;
+  width: 140px;
+  height:140px;
+  margin-left: 705px;
+}
+#respin{
+  background-color:  	#DC143C;
+  padding: 0;
+  color: 	#FFFAF0;
+  font-size: 22px;
+  font-family: Ubuntu;
+  border: none;
+  margin-left: 625px;
+  outline: none;
+  overflow: visible;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 300px;
+  height:50px;
+}
+#grp{
+  margin-left: 700px;
+  margin-right: 350px;
+  margin-top: 0px;
+  border: 2px solid black;
+  align-items: center;
+}
+
+/*#FF6347*/
+.buttons {
+	background-image: url("../image/Add1.png");
+  background-size: contain;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: visible;
+  cursor: pointer;
+  width: 70px;
+  height:70px;
+}
+.buttons9 {
+	background-image: url("../image/refresh.jpg");
+  background-size: contain;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: visible;
+  cursor: pointer;
+  width: 70px;
+  height:70px;
+  margin-left: 10px;
+}
+#top_menu{
+  position:fixed;
+  margin-top: 10px;
+  left:22px;
+  top:0;
+  width:180px;
+  height:90px;
+  border-radius:9px;
+  z-index:1000;
+ }
+#footer{
+	text-align: center;
+	font-family:ubuntu;
+	color: 	#8B0000;
+}
+#rand{
+  font-size: 48px;
+  font-stretch: expanded;
+  font-weight: bold;
+  font-family: tahoma;
+  font-feature-settings: normal;
+  color: #FFFACD;
+}
+#no_finished, #yet_to_finish{
+  width: 400px;
+  height: 170px;
+  background-image: url("../image/no1.jpg");
+  background-size:cover;
+  opacity:0.8;
+  text-align: center;
+  font-size: 49px;
+  font-family: Ubuntu;
+  border-radius: 55px;
+}
+#no_finished{
+  float: left;
+}
+#yet_to_finish{
+  margin:0px;
+  display: inline-block;
+  float: right;
+}
+
+#left_side{
+  font-size: 22px;
+  color: Black;
+}
+#report{
+  vertical-align: bottom;
+  width: 1525px;
+  height: 190px;
+
+}

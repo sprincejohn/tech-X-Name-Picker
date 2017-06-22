@@ -1,0 +1,150 @@
+body{
+  background: url("../image/adbck3.jpeg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+  background-blend-mode: hard-light;
+  background-position:center;
+}
+h1{
+  font-family:Ubuntu;
+  font-size: 45px;
+  color: 	#FAFAD2;
+  text-align: center;
+}
+
+h3{
+  font-family:Ubuntu;
+  font-size: 35px;
+  color: #FFF0F5;
+  text-align: center;
+}
+
+#tabledis{
+  background-color:black;
+  opacity:0.4;
+  width:530px;
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:3px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: #FAFAD2;
+}
+
+#myTable{
+  /*border: 1px solid  #008080;*/
+  color: #FAFAD2;
+  font-family: monospace;
+  font-size: 18px;
+}
+#width{
+  width:205px;
+}
+.Change{
+  background-image: url("../image/changee.png");
+  background-size: contain;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: visible;
+  cursor: pointer;
+  width: 60px;
+  height:60px;
+  color: #48D1CC;
+  font-family: Ubuntu;
+  font-size: 16px;
+  margin-top: 7px
+}
+.del{
+  background-image: url("../image/del.png");
+  background-size: contain;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: visible;
+  cursor: pointer;
+  width: 50px;
+  height:50px;
+  color:#FAFAD2;
+  margin-left: 30px;
+  vertical-align: bottom;
+}
+.buttons {
+	background-image: url("../image/back_button.png");
+  background-size: contain;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: visible;
+  cursor: pointer;
+  width: 70px;
+  height:70px;
+}
+
+.buttons1 {
+	background-image: url("../image/Add.png");
+  background-size: contain;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: visible;
+  cursor: pointer;
+  width: 70px;
+  height:70px;
+}
+.buttons2 {
+	background-image: url("../image/reset.png");
+  background-size: contain;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: visible;
+  cursor: pointer;
+  width: 70px;
+  height:70px;
+}
+
+#footer{
+	text-align: center;
+	font-family:ubuntu;
+	color: 	#A52A2A;
+}
+
+#fixed{
+  background-color:black;
+  opacity:0.6;
+  position:fixed;
+  left:22px;
+  top:0;
+  width:220px;
+  height:70px;
+  border-radius:9px;
+  z-index:1000;
+ }
+
+ a:link {
+   color: GoldenRod;
+   background-color: transparent;
+   text-decoration: none;
+ }
+
+ a:visited {
+   color: green;
+   background-color: transparent;
+   text-decoration: none;
+ }
+
+ a:hover {
+   color:gray;
+   background-color: transparent;
+   text-decoration: none;
+ }
