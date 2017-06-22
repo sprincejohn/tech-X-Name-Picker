@@ -42,11 +42,13 @@
 
   </div>
 
+    <wrapper id="center">
          <form method="post" action="picker.php">
                 <input type="submit" name="enter" class="create" id="spin" value="" />
                 <input type="hidden" name="user_id" value="<?php echo $sel_id; ?>" /><br><br>
                 <input type="submit" name="renter" id="respin" value="Confirm">
          </form>
+    </wrapper>     
 <div id="report">
     <div id="no_finished">
       <h1 id="left_side">No of Sessions Completed </h1>
