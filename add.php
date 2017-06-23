@@ -16,15 +16,13 @@ else {
 <html>
 <head>
     <link rel="stylesheet" href="css\add_style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js\jquery.js"></script>
-</head>
+  </head>
 <body>
   <h1>New Registry</h1>
   <div id="fixed">
    <img src="image\techx.png">
     <a href="admin.php"><button class="buttons"></button></a>
-  </div>
+    </div>
   <h3>
        <?php
             if ($Err != "") {
