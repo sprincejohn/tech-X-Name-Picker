@@ -1,6 +1,8 @@
 <?php
 
-    $db = mysqli_connect("localhost","root","root","Name_Generator");
+    include_once('database.php');
+
+    $db = mysqli_connect("localhost","$username","$password","Name_Generator");
     $one = 1;
     $zer = 0;
     $num_fin = " ";

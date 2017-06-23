@@ -1,9 +1,11 @@
 <?php
+
+    include_once('database.php');
    $row_id=$_GET['id'];
    $one = 1;
    $zer = 0;
 
-  $dv = mysqli_connect("localhost","root","root","Name_Generator");
+  $dv = mysqli_connect("localhost","$username","$password","Name_Generator");
 
   $sql = "SELECT name.ID,name.Status FROM name WHERE ID = '$row_id'";
   $res = mysqli_query($dv,$sql);

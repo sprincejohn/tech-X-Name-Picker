@@ -1,5 +1,5 @@
 <?php
-  // include_once('up_act.php');
+  include_once('database.php');
   include_once('jquery.js');
 ?>
 <!DOCTYPE html>
@@ -18,7 +18,7 @@
     <a href="add.php"><button class="buttons1"></button></a>
     <a href="reset.php"><button class="buttons2"></button></a>
   </div>
-  
+
   <div id="tabledis">
     <table id="myTable">
       <tr>
@@ -29,7 +29,7 @@
       </tr>
 
       <?php
-          $conn = new mysqli("localhost", "root", "root", "Name_Generator");
+          $conn = new mysqli("localhost", "$username", "$password", "Name_Generator");
 
           $sql= "SELECT name.ID,name.Name,name.Status FROM name";
           $results = mysqli_query($conn,$sql);

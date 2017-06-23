@@ -1,6 +1,6 @@
 <?php
-
-    $db = mysqli_connect("localhost","root","root","Name_Generator");
+    include_once('database.php');
+    $db = mysqli_connect("localhost","$username","$password","Name_Generator");
 
       if(isset($_POST["Enter"])){
           $Name =$_POST['Name'];

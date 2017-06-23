@@ -1,7 +1,10 @@
 <?php
-        $db = mysqli_connect("localhost","root","root","Name_Generator");
+
+    include_once('database.php');
+
+        $db = mysqli_connect("localhost","$username","$password","Name_Generator");
         $new_status = 1;
-      if (isset($_POST['enter'])) {
+        if (isset($_POST['enter'])) {
           $checker = 0;
           $value = $_POST['enter'];
           $err = " ";
