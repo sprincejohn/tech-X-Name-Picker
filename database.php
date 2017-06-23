@@ -1,9 +1,7 @@
 <?php
+$server_ip = $_SERVER['SERVER_ADDR'];
 
-$http_ip = $_SERVER['REMOTE_HOST'];
-$localIP = getHostByName(getHostName());
-
-if($http_ip == $local_ip){
+if($server_ip == '127.0.0.1'){
   $username = "root";
   $password = "root";
 }
@@ -11,5 +9,3 @@ else {
   $username = "root";
   $password = "cyroot";
 }
-
-?>
