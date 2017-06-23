@@ -1,4 +1,13 @@
 <?php
+session_start();
+$admin = $SESSION['username'];
+
+if(isset($_SESSION['username'])) {
+        $dummy = 0;
+}
+else {
+      header("Location:index.php");
+  }
   include_once('add_new_action.php');
     include_once('jquery.js');
 ?>
@@ -12,8 +21,10 @@
 </head>
 <body>
   <h1>New Registry</h1>
-  <a href="admin.php"><button class="buttons"></button></a>
-
+  <div id="fixed">
+   <img src="image\techx.png">
+    <a href="admin.php"><button class="buttons"></button></a>
+  </div>
   <h3>
        <?php
             if ($Err != "") {
@@ -28,6 +39,8 @@
       <input type="text" name="Name" id="field" />
       <input type="submit" id="btn" name="Enter" value="`"/>
     </form>
+
+    <img id="image" src="image\techx.png">
   </div>
 
 

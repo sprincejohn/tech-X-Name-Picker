@@ -75,7 +75,7 @@ h3{
   margin-left: 30px;
   vertical-align: bottom;
 }
-.buttons {
+#buttons {
 	background-image: url("../image/back_button.png");
   background-size: contain;
   background-color: transparent;
@@ -121,14 +121,16 @@ h3{
 
 #fixed{
   background-color:black;
-  opacity:0.6;
+  opacity:0.5;
   position:fixed;
   left:22px;
   top:0;
-  width:220px;
-  height:70px;
+  width:20%;
+  height:180px;
   border-radius:9px;
   z-index:1000;
+  text-align: center;
+  border: 2px solid #008080;
  }
 
  a:link {
@@ -147,4 +149,9 @@ h3{
    color:gray;
    background-color: transparent;
    text-decoration: none;
+ }
+ #image{
+   image-resolution: from-image;
+   width: 85%;
+   margin-top: auto;
  }

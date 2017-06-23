@@ -149,3 +149,8 @@ h1{
 #center{
   text-align: center;
 }
+#image{
+  image-resolution: from-image;
+  width: 25%;
+  margin-top: 25%;
+}

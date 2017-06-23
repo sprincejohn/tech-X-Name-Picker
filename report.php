@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+$admin = $SESSION['username'];
     include_once('database.php');
 
     $db = mysqli_connect("localhost","$username","$password","Name_Generator");

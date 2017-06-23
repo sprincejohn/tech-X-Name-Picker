@@ -1,4 +1,6 @@
 <?php
+session_start();
+$admin = $SESSION['username'];;
     include_once('database.php');
     $db = mysqli_connect("localhost","$username","$password","Name_Generator");
 
@@ -14,7 +16,10 @@
 
             $sql = "INSERT INTO name (Name,Status) VALUES('$Name','$sta')";
             mysqli_query($db,$sql);
-            header("Location: admin.php");
+
+              session_start();
+              $admin = $SESSION['username'];
+              header("Location: admin.php");
 
           }
       }

@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+$admin = $SESSION['username'];
     include_once('database.php');
    $row_id=$_GET['id'];
    $one = 1;
@@ -26,11 +28,11 @@
   if($new_status == $one){
       $squ = "UPDATE name SET Status = '$one' WHERE ID = '$row_id' ";
       mysqli_query($dv,$squ);
-      header("Location: admin.php");
+      header("Location: admin.php#" . ($row_id));
   }
   else if ($new_status == $zer ) {
     $squ = "UPDATE name SET Status = '$zer' WHERE ID = '$row_id'";
     mysqli_query($dv,$squ);
-    header("Location: admin.php");
+    header("Location: admin.php#" . ($row_id));
   }
  ?>

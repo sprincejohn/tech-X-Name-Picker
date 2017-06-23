@@ -1,4 +1,6 @@
 <?php
+session_start();
+$admin = $SESSION['username'];
 
   include_once('database.php');
   $sta = 0  ;

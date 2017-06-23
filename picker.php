@@ -1,7 +1,9 @@
 <?php
+session_start();
+$admin = $SESSION['username'];
     include_once('jquery.js');
     include_once('generator.php');
-    include_once('report.php')
+    include_once('report.php');
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +17,7 @@
 
 
     <div id="top_menu">
-      <a href="admin.php">  <button class="buttons"></button> </a>
+      <a href="index.php"><button class="buttons"></button> </a>
       <a href="refresh.php"><button class="buttons9"></button></a>
     </div>
 
@@ -39,7 +41,7 @@
        ?>
     </h3>
     <h1 id="rand"><?php echo $ret_name ; ?></h1>
-
+    <img src="image\techx.png">
   </div>
 
     <wrapper id="center">
@@ -48,7 +50,7 @@
                 <input type="hidden" name="user_id" value="<?php echo $sel_id; ?>" /><br><br>
                 <input type="submit" name="renter" id="respin" value="Confirm">
          </form>
-    </wrapper>     
+    </wrapper>
 <div id="report">
     <div id="no_finished">
       <h1 id="left_side">No of Sessions Completed </h1>

@@ -64,3 +64,19 @@ h3{
 	font-family:ubuntu;
 	color: #E9967A;
 }
+
+#fixed{
+  opacity: 0.5;
+  position:fixed;
+  left:22px;
+  top:0;
+  width:220px;
+  height:70px;
+  border-radius:9px;
+  z-index:1000;
+ }
+#image{
+  image-resolution: from-image;
+  width: 25%;
+  margin-top: 25%;
+}
